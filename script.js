@@ -490,7 +490,7 @@ function setupEventListeners() {
     aliasInput.value = '';
     // Update placeholder instead of clearing input
     aliasInput.placeholder = newAlias 
-      ? `Current: ${newAlias}` 
+      ? `Set nickname for ${newAlias}` 
       : `Set nickname for ${friends.find(f => f.id === currentFriendId).name.split(' ')[0]}`;
 
     renderDashboard();
