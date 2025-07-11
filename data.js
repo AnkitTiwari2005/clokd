@@ -20,8 +20,8 @@ const friends = [
         { start: "11:20 AM", end: "12:10 PM", type: "Class", title: "Design and Analysis of Algorithms", location: "Block-B2-103", faculty: "Babita Sharma" },
         { start: "12:10 PM", end: "01:00 PM", type: "Class", title: "Computer Networks", location: "Block-B2-103", faculty: "Himanshi" },
         { start: "01:05 PM", end: "01:55 PM", type: "Break", title: "Break", location: "", faculty: "" },
-        { start: "01:55 PM", end: "02:45 PM", type: "Class", title: "23CSP-339", location: "Block-B2-103", faculty: "Sumit Malhotra" },
-        { start: "02:45 PM", end: "03:35 PM", type: "Class", title: "23CSP-339", location: "Block-B2-103", faculty: "Sumit Malhotra" },
+        { start: "01:55 PM", end: "02:45 PM", type: "Class", title: "Full Stack-I", location: "Block-B2-103", faculty: "Sumit Malhotra" },
+        { start: "02:45 PM", end: "03:35 PM", type: "Class", title: "Full Stack-I", location: "Block-B2-103", faculty: "Sumit Malhotra" },
         { start: "03:35 PM", end: "04:25 PM", type: "Break", title: "Break", location: "", faculty: "" }
       ],
       Wednesday: [
@@ -51,8 +51,8 @@ const friends = [
         { start: "12:10 PM", end: "01:00 PM", type: "Break", title: "Break", location: "", faculty: "" },
         { start: "01:05 PM", end: "01:55 PM", type: "Class", title: "Aptitude-III", location: "Block-B2-103", faculty: "Jagat Pal" },
         { start: "01:55 PM", end: "02:45 PM", type: "Class", title: "Aptitude-III", location: "Block-B2-103", faculty: "Jagat Pal" },
-        { start: "02:45 PM", end: "03:35 PM", type: "Class", title: "23CSP-339", location: "Block-B2-103", faculty: "Sumit Malhotra" },
-        { start: "03:35 PM", end: "04:25 PM", type: "Class", title: "23CSP-339", location: "Block-B2-103", faculty: "Sumit Malhotra" }
+        { start: "02:45 PM", end: "03:35 PM", type: "Class", title: "Full Stack-I", location: "Block-B2-103", faculty: "Sumit Malhotra" },
+        { start: "03:35 PM", end: "04:25 PM", type: "Class", title: "Full Stack-I", location: "Block-B2-103", faculty: "Sumit Malhotra" }
       ]
     }
   },
