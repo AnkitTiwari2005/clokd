@@ -487,7 +487,7 @@ function setupEventListeners() {
 
     localStorage.setItem('clokd_aliases', JSON.stringify(aliases));
     detailName.textContent = newAlias || friends.find(f => f.id === currentFriendId).name;
-    
+    aliasInput.value = '';
     // Update placeholder instead of clearing input
     aliasInput.placeholder = newAlias 
       ? `Current: ${newAlias}` 
