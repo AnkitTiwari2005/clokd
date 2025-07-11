@@ -172,7 +172,6 @@ function openFriendDetail(friendId) {
   aliasInput.placeholder = aliases[friendId] 
     ? `Set nickname for ${aliases[friendId]}` 
     : `Set nickname for ${friend.name.split(' ')[0]}`;
-  aliasInput.value = '';
 
   // Update status
   updateFriendStatus(friend);
