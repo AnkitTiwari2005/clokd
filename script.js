@@ -210,7 +210,9 @@ function getNextFreeTime(friend) {
   for (const event of friend.timetable[today]) {
     const startMinutes = parseTimeToMinutes(event.start);
     const endMinutes = parseTimeToMinutes(event.end);
-
+    if (currentMinutes > 985) {
+    return 'No more classes today';
+    }
     if (startMinutes > currentMinutes && event.type === 'Break') {
       return `${event.start} - ${event.end}`;
     }
