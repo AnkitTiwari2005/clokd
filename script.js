@@ -211,12 +211,16 @@ function getNextFreeTime(friend) {
     const startMinutes = parseTimeToMinutes(event.start);
     const endMinutes = parseTimeToMinutes(event.end);
 
+    if (currentMinutes > 445) {
+    return 'No more classes today';
+    }
+
     if (startMinutes > currentMinutes && event.type === 'Break') {
       return `${event.start} - ${event.end}`;
     }
   }
 
-  return 'No more classes today';
+  return 'After 4:25 PM';
 }
 
 function renderTimetable(friend) {
